@@ -5,7 +5,7 @@
 
 
 def main():
-    llista = [x*2 for x in range(16)]
+    llista = [x for x in range(31)if x%2==0]
     print(llista)
 
 # Press the green button in the gutter to run the script.
