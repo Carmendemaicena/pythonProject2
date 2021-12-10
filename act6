@@ -1,0 +1,7 @@
+def main():
+    state = 'Practica els problemes de list comprehensions per a ser més Pythonic!'
+    llista = [x for x in state.split() if len(x) < 6]
+    print(llista)
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    main()
